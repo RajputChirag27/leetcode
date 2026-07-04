@@ -5,7 +5,7 @@ class Solution:
         # and one pointer to track the index.
         # Then we will check if the element change increment the pointer and  # change the prev element 
         n =  len(nums)
-        if n == 1:
+        if n <= 1:
             return n
         cIdx = 1
         
