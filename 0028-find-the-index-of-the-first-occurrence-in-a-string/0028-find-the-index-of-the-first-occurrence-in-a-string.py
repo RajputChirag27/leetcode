@@ -12,7 +12,13 @@ class Solution:
         nLen = len(needle)
         tLen = hLen - nLen + 1
         for i in range(tLen):
-            if haystack[i: i+nLen] == needle:
+            match = True
+            for j in range(nLen):
+                if haystack[i + j] != needle[j]:
+                    match = False
+                    break
+
+            if match:
                 return i
 
         return -1
