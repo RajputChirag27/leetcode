@@ -17,17 +17,9 @@ class Solution:
         right = n - 1
 
         while left < right:
-            while left < right and not  (
-                48 <= ord(s[left]) <= 57
-                or 65 <= ord(s[left]) <= 90
-                or 97 <= ord(s[left]) <= 122
-            ):
+            while left < right and not s[left].isalnum():
                 left += 1
-            while left < right and not (
-                48 <= ord(s[right]) <= 57
-                or 65 <= ord(s[right]) <= 90
-                or 97 <= ord(s[right]) <= 122
-            ):
+            while left < right and not s[right].isalnum():
                 right -= 1
             if s[left].lower() != s[right].lower():
                 return False
