@@ -31,10 +31,10 @@ class Solution:
         charSet = set()
 
         for j in range(n):
-            if s[j] in charSet:
-                while s[j] in charSet:
-                    charSet.remove(s[i])
-                    i = i + 1
+            # if s[j] in charSet:
+            while s[j] in charSet:
+                charSet.remove(s[i])
+                i = i + 1
             
             charSet.add(s[j])
             maxLen = max(maxLen, j - i + 1)
