@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/RajputChirag27/leetcode/tree/master/0088-merge-sorted-array) |
+| [0643-maximum-average-subarray-i](https://github.com/RajputChirag27/leetcode/tree/master/0643-maximum-average-subarray-i) |
 ## Sorting
 |  |
 | ------- |
@@ -33,4 +34,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/RajputChirag27/leetcode/tree/master/0141-linked-list-cycle) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/RajputChirag27/leetcode/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
