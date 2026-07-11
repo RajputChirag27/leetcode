@@ -22,8 +22,8 @@ class Solution:
         freqMap = Counter(nums)
         maxSum = 0
 
-        for i in range(len(nums)):
-            if nums[i]+1 in freqMap:
-                maxSum = max(maxSum, freqMap.get(nums[i])+ freqMap.get(nums[i]+1))
+        for num in freqMap:
+            if num + 1 in freqMap:
+                maxSum = max(maxSum, freqMap[num] + freqMap[num + 1])
             
         return maxSum
